@@ -1,4 +1,5 @@
 # https://atcoder.jp/contests/abc243/tasks/abc243_b
+# easy
 N = int(input())
 A = list(map(int, input().split()))
 B = list(map(int, input().split()))
@@ -16,4 +17,3 @@ for key, val in a_dic.items():
 else:
     print(count_1)
     print(count_2)
-
