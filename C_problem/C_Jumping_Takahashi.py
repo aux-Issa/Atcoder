@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abc240/tasks/abc240_c
+# review is required
 N, X = map(int, input().split())
 ab = [map(int, input().split()) for _ in range(N)]
 a, b = [list(i) for i in zip(*ab)]
