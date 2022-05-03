@@ -2,9 +2,5 @@
 # easy: 3分
 
 S = input()
-arr = []
-for s in S:
-  arr.append(s)
-arr.sort()
-
-print(''.join(arr))
+arranged_s = sorted(S)
+print(''.join(arranged_s))
